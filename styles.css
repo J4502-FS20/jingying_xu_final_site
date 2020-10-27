@@ -1,0 +1,88 @@
+.content {
+    background-color: #FBFBFB;
+    text-align: center;
+}
+
+p {
+    text-align: justify;
+    font-size: 1.5em;
+    text-indent: 2em;
+    font-family: 'cambria';
+}
+
+img {
+    width: 85%;
+    min-width: 330px;
+    max-width: 900px;
+    padding-top: 50px;
+}
+
+a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #000000
+}
+
+a:hover {
+    color: #900000;
+    font-weight: bold;
+}
+
+#introduction {
+    background-color: black;
+    color: white;
+    padding: 75px;
+    max-width: 900px;
+    margin: auto;
+    font-size: 2.5em;
+    font-family: 'Roboto Mono', monospace;
+}
+
+#text {
+     background-color: white;
+     padding: 75px;
+     max-width: 900px;
+     margin: auto;
+}
+
+#infographic {
+     background-color: white;
+     padding: 75px;
+     max-width: 900px;
+     margin: auto;
+}
+
+#visuals {
+     background-color: white;
+     padding: 75px;
+     max-width: 900px;
+     margin: auto;
+}
+
+nav {
+     padding-top: 1px;
+}
+
+.bar {
+    background-color: #F1B82D;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-size: 1.5em;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-family: 'Oswald', sans-serif;
+}
+
+h1 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 4em;
+    text-transform: uppercase;
+    padding-left: 35px;
+}
+
+h2 {
+    font-family: 'cambria';
+    font-size: 2em;
+    text-align: left;
+}
