@@ -44,23 +44,11 @@ a:hover {
 }
 
 #text {
-     background-color: #FBFBFB;
+     background-color: #111111;
+     color: white;
      padding: 75px;
      max-width: 900px;
      margin: auto;
-}
-
-#visuals {
-     background-color: #FBFBFB;
-     padding: 75px;
-     max-width: 900px;
-     margin: auto;
-}
-
-#timeline {
-     background-color: black;
-     padding-bottom: 50px;
-     padding-top:50px;
 }
 
 nav {
@@ -107,19 +95,104 @@ h2 {
     padding-top: 0px;
 }
 
-#timelinetext {
-    color: white;
-    padding-top: 0px;
-    margin: auto;
-    padding-bottom: 75px;
-    font-size: 1.5em;
-    width: 85%;
-    min-width: 330px;
-    max-width: 900px;
-}
-
 @media only screen and (min-width: 1400px) {
     h3 {
         max-width: 350px;
     }
+}
+
+#gallery_holder {
+  max-width: 800px;
+  margin: auto;
+  padding-top: 70px;
+}
+
+#selected_img {
+	width: 100%;
+	height: auto;
+	margin: 0 auto;
+}
+
+#selected_img img {
+	width: 100%;
+	height: auto;
+}
+
+#image_gallery {
+  display: flex;
+  margin:auto;
+  padding-bottom: 120px;
+
+}
+
+#image_gallery img {
+  min-width: 50px;
+  width:90%;
+
+}
+
+#image_gallery img:hover{
+  opacity: 0.6;
+
+}
+
+.timeline {
+	display: inline-block;
+	max-height: 250px;
+  opacity: 0.7;
+}
+
+.timeline img {
+	width: 100%;
+	height: auto;
+}
+
+.photoGallery {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  max-width: 900px;
+  margin:auto;
+  padding-bottom: 110px;
+  padding-top: 50px;
+}
+
+.imageHolder {
+  margin: 20px 0;
+  font-family: 'cambria';
+  color: white;
+  font-size: 1.5em;
+}
+
+.imageHolder caption {
+  margin: 10px 0;
+}
+
+.imageHolder img {
+  width: 100%;
+  max-width: 900px;
+  min-width: 330px;
+}
+
+.button_holder {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.button_holder button {
+  background-color: #F1B82D;
+  color: black;
+  font-family: 'Oswald', sans-serif;
+  font-size: 1em;
+  border: none;
+}
+
+button:hover {
+    color: #900000;
+}
+
+.hideThisDiv {
+  display: none;
 }
